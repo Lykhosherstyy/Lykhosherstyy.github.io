@@ -1,0 +1,219 @@
+@media screen and (max-device-width: 1024px) and (orientation: landscape){
+	.container,.nav{max-width: 780px;}
+	.service-item, .culture-item {
+		display:block;
+		width: 70%;
+		margin: 20px auto 0;
+	}
+	.descr{
+		margin-bottom: 15px;
+	}
+	.latest-left {
+    	max-width: 100%;
+	}
+	.culture-item-img:after{
+		display: none;
+	}
+	.footer-contact h6,
+	.footer-latest-posts h6,
+	.footer-latest-tweets h6{
+		font-size:16px;
+	}
+	.footer-contact li,
+	.footer-latest-posts li,
+	.footer-latest-tweets li{
+  		font: 14px/24px 'Roboto Slab', sans-serif;
+  		color: #fff;
+}
+
+}
+@media screen and (device-width: 768px) and (orientation: portrait){
+
+	.container,.nav{max-width: 540px;}
+	
+	.title h2 {font-size:40px;}
+	.title p {font-size:16px;}
+	
+	.header{padding:20px 0;}
+		
+	.header ul {
+		width: 110px;
+		padding: 5px 0;
+		position: absolute;
+		top: -10px;
+		right: 50px;
+		border: solid 1px #aaa;
+		background: #FAFAFA;
+		border-radius: 5px;
+		box-shadow: 0 1px 2px rgba(0,0,0,.3);
+	}
+	.nav {
+		position: relative;
+		min-height: 40px;
+	}
+	.nav li {
+		display: none; /* скрыть все <li> пункты */
+		margin: 0;
+	}
+	.nav .current {
+		display: block; /* показывать только текущие активные <li> пункты */
+	}
+	.nav  li a {
+		display: block;
+		padding: 5px 5px 5px 15px;
+		text-align: left;
+	}
+	.nav .current a {
+		background: none;
+		color: #666;
+	}
+
+	.nav:hover li {
+		display: block;
+		margin: 0 0 5px;
+	}
+	.section-title{font-size: 30px;}
+	.relax {
+    	padding: 20px 0 20px 7.16%;
+	}
+	.relax h3 {font-size: 30px;}
+	.service,
+	.latest-project,
+	.culture,
+	.clients {
+    	padding: 40px 0;
+	}
+	.service-item, .culture-item {
+		display:block;
+		width: 100%;
+		margin: 20px auto 0;
+	}
+	.descr{
+		margin-bottom: 15px;
+	}
+	.culture-item-img:after{
+		display: none;
+	}
+	.clients-item{margin-top: 10px;}
+	.clients-item-img{float:none;margin: 0 auto;width: 40%;}
+	.clients-item-text{
+		max-width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.question, .brands {padding: 20px;}
+	.question h5 {font-size: 20px;}
+
+	.footer-contact,
+	.footer-latest-posts{
+		width: 50%;
+	}
+	.footer-latest-tweets {
+		display:none;
+	}
+	.footer-contact h6,
+	.footer-latest-posts h6,
+	.footer-latest-tweets h6{
+		font-size:14px;
+	}
+	.footer-contact li,
+	.footer-latest-posts li,
+	.footer-latest-tweets li{
+  		font: 12px/24px 'Roboto Slab', sans-serif;
+  		color: #fff;
+	}
+	.copyright .social {
+    	margin-left: 280px;
+	}
+}
+@media screen and (max-width:645px){
+	.title{
+		height: 300px;
+	}
+	.copyright {
+    	padding: 0;
+    	text-align: center;
+	}
+	.copyright p {
+    	float: none;
+	}
+	.copyright .social {
+		margin-top: 5px;
+    	margin-left: 0;
+	}
+	.top-footer {
+    	padding: 10px 0;
+    }
+	
+	.footer-latest-posts{
+		display:none;
+	}
+	.footer-contact{
+		width: 100%;
+		text-align: center;
+	}
+	.footer-contact li{
+		display: inline-block;
+		margin-left: 10px;
+		margin-bottom: 0;
+	}
+	.footer-icon,
+	.adress {
+		margin-right:0px;
+	}
+}
+
+@media screen and (max-width:530px){
+	.container,.nav{max-width: 350px;}
+	.title h2 {
+    	font-size: 20px;
+	}
+	h4{
+		font-size: 12px;
+	}
+	.section-title {
+    font-size: 20px;
+	}	
+	.descr {
+		font-size: 11px;
+    	margin-bottom: 5px;
+	}
+	.service-item, .culture-item {
+	    display: block;
+	    width: 100%;
+	    margin: 5px auto 0;
+	}
+	.service-item p, .culture-item p {font-size: 12px;}
+	.service-item-img {
+    	margin-bottom: 5px;
+	}
+	.relax h3 {
+    font-size: 20px;
+    line-height: 16px;
+	}
+	.relax p {font-size: 14px;}
+	.relax li {font-size: 12px;}
+	.latest-left-title {font-size: 14px;}
+	.latest-left p {font-size: 13px;line-height: 15px;}
+	.latest-left li {
+		width: 100%;
+	    margin-top: 20px;
+	}
+	.latest-img {
+		float: none;
+		margin: 0 auto;
+	}
+	.latest-text {
+		margin-left: 0;
+    	margin-top: 5px;
+    	text-align: center;
+	}
+	.latest-text h4 {text-align: center;}
+	blockquote {font-size: 12px;}
+	.clients-item-text span {font-size:12px;}
+	.clients-item-text {margin-top: 5px;}
+	.brands a {display: block;width: 50%;margin: 0 auto;}
+	.brands a:last-child {
+    	margin-right: auto; 
+	}
+}
